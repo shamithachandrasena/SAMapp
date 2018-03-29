@@ -1,15 +1,4 @@
-<p>
-  friend-list works!
-</p>
-<!--
-{{friend.name}}<br>
-{{friend.age}}
--->
-<div *ngFor="let friend of friends">
-<p>
-My Friend is 
-{{friend.name}} he/she is
-{{friend.age}} years old
-	email address is {{friend.email}}
-</p>
-</div>
+
+<app-friend *ngFor='let friend of friends'>
+
+</app-friend>
