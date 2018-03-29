@@ -8,7 +8,10 @@ import { Friend } from '../Friend.model';
 })
 export class FriendListComponent implements OnInit {
 
-  friend : Friend = new Friend('shamitha', 23, 'shamithachandrasena@gmai.com', 'test');
+  friends : Friend[]= [new Friend('shamitha', 23, 'shamithachandrasena@gmai.com', 'test'),
+                        new Friend('nimasha', 24, 'nimasha@gmai.com', 'testingnimasha'),
+                        new Friend('pavan', 23, 'nimasha@gmai.com', 'testingnimasha')
+  ];
 
   constructor() { }
 
