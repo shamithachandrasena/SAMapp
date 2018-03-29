@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Friend } from '../Friend.model';
 
 @Component({
   selector: 'app-friend-list',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./friend-list.component.css']
 })
 export class FriendListComponent implements OnInit {
+
+  friend : Friend = new Friend('shamitha', 23, 'shamithachandrasena@gmai.com', 'test');
 
   constructor() { }
 
