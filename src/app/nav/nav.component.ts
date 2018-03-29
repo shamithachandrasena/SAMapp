@@ -1,12 +1,16 @@
 /**
  * New typescript file
  */
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 @Component({
-  selector:'app-nav',
+  selector: 'app-nav',
   templateUrl: './nav.component.html',
-  styleUrls: ['./nav.component.css']
+  // styleUrls: ['./nav.component.css']
 })
-export class navComponent implements OnInit {
+export class NavComponent implements OnInit {
   title = 'app';
+  constructor(){
+  }
+  ngOnInit(){
+  }
 }
